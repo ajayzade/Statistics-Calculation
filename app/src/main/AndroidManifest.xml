@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="aj.stats.statisticsandanalysis">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6494979048790657~2420754522"/>
+        <activity android:name=".Twelve"
+            android:theme="@style/NewTheme"/>
+        <activity android:name=".Eleven"
+            android:theme="@style/NewTheme"/>
+        <activity android:name=".Ten"
+            android:theme="@style/NewTheme"/>
+        <activity android:name=".Nine"
+            android:theme="@style/NewTheme"/>
+        <activity android:name=".Eight"
+            android:theme="@style/NewTheme"/>
+        <activity android:name=".Seven"
+            android:theme="@style/NewTheme"/>
+        <activity android:name=".Six"
+            android:theme="@style/NewTheme"/>
+        <activity android:name=".Five"
+            android:theme="@style/NewTheme"/>
+        <activity android:name=".Four"
+            android:theme="@style/NewTheme"/>
+        <activity android:name=".Three"
+            android:theme="@style/NewTheme"/>
+        <activity android:name=".Two"
+            android:theme="@style/NewTheme"/>
+        <activity android:name=".One"
+            android:theme="@style/NewTheme"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
